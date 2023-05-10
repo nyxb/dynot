@@ -22,17 +22,16 @@
   ],
   "scripts": {
     "build": "nyxr clean && cross-env NODE_ENV=production nyxr webpack",
-    "clean": "rm -rf dist",
+    "clean": "rimraf dist",
     "dev": "nyxr clean && pnpm webpack --watch",
     "dynot": "cross-env DYNOT_DEBUG=1 DYNOT_CACHE=false DYNOT_REQUIRE_CACHE=false ./bin/dynot.js",
     "dynot:legacy": "cross-env DYNOT_DEBUG=1 npx node@12 ./bin/dynot.js",
     "lint": "eslint --ext .ts,.js .",
+    "lint:fix": "eslint --ext .ts,.js . --fix",
     "release": "nyxr build && nyxr test && pnpm publish",
     "test": "nyxr lint && vitest run --coverage"
   },
   "devDependencies": {
-    "@nyxb/nyxi": "^0.0.28",
-    "@nyxb/eslint-config": "0.0.53",
     "@babel/core": "^7.21.4",
     "@babel/plugin-proposal-decorators": "^7.21.0",
     "@babel/plugin-proposal-export-namespace-from": "^7.18.9",
@@ -45,6 +44,8 @@
     "@babel/preset-typescript": "^7.21.4",
     "@babel/template": "^7.20.7",
     "@babel/types": "^7.21.4",
+    "@nyxb/eslint-config": "0.0.53",
+    "@nyxb/nyxi": "^0.0.28",
     "@types/babel__core": "^7.20.0",
     "@types/babel__template": "^7.4.1",
     "@types/node": "^18.16.1",
@@ -58,22 +59,24 @@
     "babel-plugin-transform-typescript-metadata": "^0.3.2",
     "changelogen": "^0.5.3",
     "config": "^3.3.9",
+    "consolji": "^0.1.1",
     "cross-env": "^7.0.3",
-    "nyxjson": "^0.0.2",
+    "envizor": "^0.0.1",
     "escape-string-regexp": "^5.0.0",
     "eslint": "^8.40.0",
     "esm": "^3.2.25",
+    "esmnxuts": "^0.0.4",
     "estree-walker": "^3.0.3",
     "execa": "^7.1.1",
     "fast-glob": "^3.2.12",
-    "esmnxuts": "^0.0.2",
-    "object-hash": "^3.0.0",
+    "nyxjson": "^0.0.2",
     "nyxpath": "^0.0.3",
+    "object-hash": "^3.0.0",
     "pirates": "^4.0.5",
     "pkg-def": "^0.0.1",
     "reflect-metadata": "^0.1.13",
+    "rimraf": "^5.0.0",
     "semver": "^7.5.0",
-    "envizor": "^0.0.1",
     "terser-webpack-plugin": "^5.3.7",
     "ts-loader": "^9.4.2",
     "tslib": "^2.5.0",
@@ -83,5 +86,8 @@
     "webpack": "^5.80.0",
     "webpack-cli": "^5.0.2"
   },
-  "packageManager": "pnpm@8.5.0"
+  "packageManager": "pnpm@8.5.0",
+  "dependencies": {
+    "requireflow": "^0.0.2"
+  }
 }
