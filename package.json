@@ -21,14 +21,14 @@
     "register.js"
   ],
   "scripts": {
-    "build": "nyxr clean && cross-env NODE_ENV=production nyxr webpack",
+    "build": "nyxr clean && cross-env NODE_ENV=production pnpm webpack",
     "clean": "rimraf dist",
     "dev": "nyxr clean && pnpm webpack --watch",
     "dynot": "cross-env DYNOT_DEBUG=1 DYNOT_CACHE=false DYNOT_REQUIRE_CACHE=false ./bin/dynot.js",
     "dynot:legacy": "cross-env DYNOT_DEBUG=1 npx node@12 ./bin/dynot.js",
     "lint": "eslint --ext .ts,.js .",
     "lint:fix": "eslint --ext .ts,.js . --fix",
-    "release": "nyxr build && nyxr test && pnpm publish",
+    "release": "nyxr test && nyxr build && nyxlx changelogen --release && pnpm publish && git push --follow-tags",
     "test": "nyxr lint && vitest run --coverage"
   },
   "devDependencies": {
