@@ -1,0 +1,13 @@
+{
+  "extends": [
+    "@nyxb"
+  ],
+  "rules": {
+    "unicorn/prefer-module": 0,
+    "unicorn/prefer-node-protocol": 0,
+    "unicorn/import-style": 0,
+    "unicorn/no-null": 0,
+    "@typescript-eslint/no-non-null-assertion": 0,
+    "indent": 0
+  }
+}

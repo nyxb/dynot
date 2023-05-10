@@ -1,0 +1,4 @@
+dist
+test/fixtures/error-*
+package.json
+tsconfig.json
