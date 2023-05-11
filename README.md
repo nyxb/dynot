@@ -153,5 +153,5 @@ List modules (within `node_modules`) to transform them regardless of syntax.
 [license-href]: https://github.com/nyxblabs/dynot/blob/main/LICENSE
 
 <!-- Cover -->
-[cover-src]: https://github.com/nyxblabs/dynot/blob/main/.github/assets/cover-github-dynot.png
+[cover-src]: https://raw.githubusercontent.com/nyxblabs/dynot/main/.github/assets/cover-github-dynot.png
 [cover-href]: https://💻nyxb.ws
