@@ -1,6 +1,8 @@
-![Cover](.github/assets/cover-github.png)
-
-[![npm version][npm-version-src]][npm-version-href] [![npm downloads][npm-downloads-src]][npm-downloads-href] [![bundle][bundle-src]][bundle-href] [![License][license-src]][license-href]
+[![cover][cover-src]][cover-href]
+[![npm version][npm-version-src]][npm-version-href] 
+[![npm downloads][npm-downloads-src]][npm-downloads-href] 
+[![bundle][bundle-src]][bundle-href] 
+[![License][license-src]][license-href]
 
 > 🦖⚡️ Boost your Node.js runtime with TypeScript and ESM support!
 
@@ -149,3 +151,7 @@ List modules (within `node_modules`) to transform them regardless of syntax.
 [bundle-href]: https://bundlephobia.com/result?p=dynot
 [license-src]: https://img.shields.io/github/license/nyxblabs/dynot.svg?style=flat&colorA=18181B&colorB=14F195
 [license-href]: https://github.com/nyxblabs/dynot/blob/main/LICENSE
+
+<!-- Cover -->
+[cover-src]: https://github.com/nyxblabs/dynot/blob/main/.github/assets/cover-github-dynot.png
+[cover-href]: https://💻nyxb.ws
