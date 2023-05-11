@@ -1,6 +1,23 @@
 # Changelog
 
 
+## v0.1.3
+
+[compare changes](https://github.com/nyxblabs/dynot/compare/v0.1.1...v0.1.3)
+
+
+### 🏡 Chore
+
+  - **package.json:** Update version to 0.1.2 This commit updates the version of the package to 0.1.2. No other changes were made to the package.json file. ([1edb8ac](https://github.com/nyxblabs/dynot/commit/1edb8ac))
+
+### 🎨 Styles
+
+  - **README.md:** Add cover image to README A new cover image was added to the repository's `.github/assets` directory. The README was updated to include the cover image using markdown syntax. The cover image is intended to improve the visual appeal of the repository and provide a quick overview of the project. ([8e828be](https://github.com/nyxblabs/dynot/commit/8e828be))
+
+### ❤️  Contributors
+
+- Nyxb <contact@nyxb.xyz>
+
 ## v0.1.1
 
 
