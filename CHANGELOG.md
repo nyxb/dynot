@@ -1,6 +1,19 @@
 # Changelog
 
 
+## v0.1.5
+
+[compare changes](https://github.com/nyxblabs/dynot/compare/v0.1.3...v0.1.5)
+
+
+### 📖 Documentation
+
+  - **README.md:** Fix bundlephobia link for dynot package The bundlephobia link for the dynot package was pointing to the wrong package. This commit updates the link to point to the correct package. ([20e1b30](https://github.com/nyxblabs/dynot/commit/20e1b30))
+
+### ❤️  Contributors
+
+- Nyxb <contact@nyxb.xyz>
+
 ## v0.1.3
 
 [compare changes](https://github.com/nyxblabs/dynot/compare/v0.1.1...v0.1.3)
