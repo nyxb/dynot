@@ -3,7 +3,7 @@
     "@nyxb"
   ],
   "rules": {
-    "no-html-link-for-pages": 0,
+    "@next/next/no-html-link-for-pages": 0,
     "@typescript-eslint/no-var-requires": 0,
     "@typescript-eslint/no-require-imports": 0,
     "unicorn/prefer-module": 0,
@@ -12,5 +12,10 @@
     "unicorn/no-null": 0,
     "@typescript-eslint/no-non-null-assertion": 0,
     "indent": 0
-  }
+  },
+  "settings": {
+    "react": {
+      "version": "16.0"
+    }
+}
 }
