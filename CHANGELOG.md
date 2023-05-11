@@ -1,6 +1,19 @@
 # Changelog
 
 
+## v0.1.6
+
+[compare changes](https://github.com/nyxblabs/dynot/compare/v0.1.5...v0.1.6)
+
+
+### 🎨 Styles
+
+  - **README.md:** Update badge colors to improve accessibility The badge colors have been updated to improve accessibility. The new colors are easier to distinguish for people with color vision deficiencies. ([15d3b28](https://github.com/nyxblabs/dynot/commit/15d3b28))
+
+### ❤️  Contributors
+
+- Nyxb <contact@nyxb.xyz>
+
 ## v0.1.5
 
 [compare changes](https://github.com/nyxblabs/dynot/compare/v0.1.3...v0.1.5)
