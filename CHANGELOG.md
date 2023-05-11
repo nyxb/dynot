@@ -1,6 +1,19 @@
 # Changelog
 
 
+## v0.1.8
+
+[compare changes](https://github.com/nyxblabs/dynot/compare/v0.1.7...v0.1.8)
+
+
+### 🩹 Fixes
+
+  - **eslintrc): update no-html-link-for-pages rule to use @next/next/no-html-link-for-pages 🔧 chore(eslintrc:** Add react version to settings The no-html-link-for-pages rule was updated to use the @next/next/no-html-link-for-pages package to ensure that the rule is being used correctly. Additionally, the react version was added to the settings to ensure that the correct version of react is being used. ([1e45ece](https://github.com/nyxblabs/dynot/commit/1e45ece))
+
+### ❤️  Contributors
+
+- Nyxb <contact@nyxb.xyz>
+
 ## v0.1.7
 
 [compare changes](https://github.com/nyxblabs/dynot/compare/v0.1.6...v0.1.7)
