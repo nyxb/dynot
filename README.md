@@ -141,11 +141,11 @@ List modules (within `node_modules`) to transform them regardless of syntax.
 
 <!-- Badges -->
 
-[npm-version-src]: https://img.shields.io/npm/v/dynot?style=flat&colorA=18181B&colorB=F0DB4F
+[npm-version-src]: https://img.shields.io/npm/v/dynot?style=flat&colorA=18181B&colorB=14F195
 [npm-version-href]: https://npmjs.com/package/dynot
-[npm-downloads-src]: https://img.shields.io/npm/dm/dynot?style=flat&colorA=18181B&colorB=F0DB4F
+[npm-downloads-src]: https://img.shields.io/npm/dm/dynot?style=flat&colorA=18181B&colorB=14F195
 [npm-downloads-href]: https://npmjs.com/package/dynot
-[bundle-src]: https://img.shields.io/bundlephobia/minzip/dynot?style=flat&colorA=18181B&colorB=F0DB4F
+[bundle-src]: https://img.shields.io/bundlephobia/minzip/dynot?style=flat&colorA=18181B&colorB=14F195
 [bundle-href]: https://bundlephobia.com/result?p=dynot
-[license-src]: https://img.shields.io/github/license/nyxblabs/dynot.svg?style=flat&colorA=18181B&colorB=F0DB4F
+[license-src]: https://img.shields.io/github/license/nyxblabs/dynot.svg?style=flat&colorA=18181B&colorB=14F195
 [license-href]: https://github.com/nyxblabs/dynot/blob/main/LICENSE
