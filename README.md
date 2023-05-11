@@ -146,6 +146,6 @@ List modules (within `node_modules`) to transform them regardless of syntax.
 [npm-downloads-src]: https://img.shields.io/npm/dm/dynot?style=flat&colorA=18181B&colorB=F0DB4F
 [npm-downloads-href]: https://npmjs.com/package/dynot
 [bundle-src]: https://img.shields.io/bundlephobia/minzip/dynot?style=flat&colorA=18181B&colorB=F0DB4F
-[bundle-href]: https://bundlephobia.com/result?p=h3
+[bundle-href]: https://bundlephobia.com/result?p=dynot
 [license-src]: https://img.shields.io/github/license/nyxblabs/dynot.svg?style=flat&colorA=18181B&colorB=F0DB4F
 [license-href]: https://github.com/nyxblabs/dynot/blob/main/LICENSE
