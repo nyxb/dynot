@@ -1,7 +1,4 @@
-<p align="center">
-<img src="https://raw.githubusercontent.com/nyxblabs/dynot/main/.github/assets/cover-dynot_light.png#gh-light-mode-only">
-<img src="https://raw.githubusercontent.com/nyxblabs/dynot/main/.github/assets/cover-dynot_black.png#gh-dark-mode-only">
-</p>
+![Cover](.github/assets/cover-github.png)
 
 [![npm version][npm-version-src]][npm-version-href] [![npm downloads][npm-downloads-src]][npm-downloads-href] [![bundle][bundle-src]][bundle-href] [![License][license-src]][license-href]
 
