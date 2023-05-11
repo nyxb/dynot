@@ -1,6 +1,23 @@
 # Changelog
 
 
+## v0.1.7
+
+[compare changes](https://github.com/nyxblabs/dynot/compare/v0.1.6...v0.1.7)
+
+
+### 🩹 Fixes
+
+  - **README.md:** Update cover-src link to point to the correct image location The cover-src link was pointing to an incorrect location, which resulted in a broken image. The link has been updated to point to the correct location of the cover image. ([c1107ee](https://github.com/nyxblabs/dynot/commit/c1107ee))
+
+### 🎨 Styles
+
+  - **assets): remove unused and outdated cover images and add new cover image 📝 docs(README.md:** Update cover image and add comments The commit removes the unused and outdated cover images, cover-dynot_black.png and cover-dynot_light.png, and adds a new cover image, cover-github-dynot.png. The README.md file is updated to reflect the new cover image and comments are added to the markdown file to indicate where the cover image is located. ([0facb81](https://github.com/nyxblabs/dynot/commit/0facb81))
+
+### ❤️  Contributors
+
+- Nyxb <contact@nyxb.xyz>
+
 ## v0.1.6
 
 [compare changes](https://github.com/nyxblabs/dynot/compare/v0.1.5...v0.1.6)
