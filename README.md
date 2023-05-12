@@ -131,11 +131,11 @@ List modules (within `node_modules`) to transform them regardless of syntax.
 
 ## 🌱 Development
 
-- Clone this repository
-- Enable [Corepack](https://github.com/nodejs/corepack) using `corepack enable`
-- Install dependencies using [nyxi](https://github.com/nyxblabs/nyxi) Always right package manager
-- Run `nyxr dev`
-- Run `nyxr dynot ./test/path/to/file.ts`
+🐙 Clone this repository
+🔧 Enable [Corepack](https://github.com/nodejs/corepack) using `corepack enable`
+📦 Install dependencies using [nyxi](https://github.com/nyxblabs/nyxi) 🧙 Always right package manager
+🏃 Run `nyxr dev`
+🏃 Run `nyxr dynot ./test/path/to/file.ts`
 
 ## 📜 License
 
